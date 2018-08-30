@@ -20,7 +20,7 @@ Supported versions of Ruby <> Puppet combinations are listed in the [support mat
 ```bash
 $ puppet-catalog-test -h
 USAGE: puppet-catalog-test [options]
-    -m, --module-paths PATHS         Location of puppet modules, separated by collon
+    -m, --module-paths PATHS         Location of puppet modules, separated by colon
     -M, --manifest-path PATH         Location of the puppet manifests (site.pp)
     -H, --hiera-config PATH          Location of hiera.yaml file
     -i, --include-pattern PATTERN    Include only test cases that match pattern
