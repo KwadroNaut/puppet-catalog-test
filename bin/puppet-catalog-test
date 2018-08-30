@@ -12,7 +12,7 @@ options[:custom_facts] = {}
 opt_parser = OptionParser.new do |opts|
   opts.banner = "USAGE: #{File.basename($0)} [options]"
 
-  opts.on("-m", "--module-paths PATHS", "Location of puppet modules, separated by collon") do |arg|
+  opts.on("-m", "--module-paths PATHS", "Location of puppet modules, separated by colon") do |arg|
     options[:module_paths] = arg.split(":")
   end
 
